@@ -43,10 +43,24 @@ const checkWinner=()=>{
             btn.disabled=true
           })
            WinnerMassage(post1Val.innerText)
-
+      }else{
+        let buttonVal=0;
+        buttons.forEach((btn)=>{
+          if(btn.innerText !== ""){
+            buttonVal+=1
+          }
+          console.log(buttonVal)
+          if(buttonVal==9 && post1Val.innerText !== post2Val.innerText && post2Val.innerText !== post3Val.innerText)
+               draw()
+        })
       }
 
   })
+}
+const draw=()=>{
+   restart.disabled=true
+   massageDiv.classList.remove("hide")
+   massage.innerText=`Game Draw! `
 }
 const  WinnerMassage=(pos)=>{
      restart.disabled=true
