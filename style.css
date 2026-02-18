@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+       text-align: center;
+    background:#428779;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #062b24;
+    font-weight: 900;
+    letter-spacing: 0.1vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container{
+   height: 70vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.main{
+     height: 55vmin;
+     width: 55vmin;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 3vmin;
+}
+.main button{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.7);
+    background: #e8f0b9;
+     font-size: 40px;
+     font-weight: 700;
+     color: rgb(115, 9, 16);
+}
+#refresh{
+    background-color: #04250A;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+   
+}
+.massage{
+     font-size: 60px;
+     color:#3a0631;
+     margin: 20px;
+     font-weight: 900;
+}
+.New{
+     background-color: #04250A;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.massageDiv{
+    margin: 20vmin;
+}
+.hide{
+    display: none;
+}
